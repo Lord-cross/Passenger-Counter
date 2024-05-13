@@ -1,0 +1,39 @@
+body {
+    font-family: "Work Sans", sans-serif !important;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.bg-image {
+    background-image: url(https://picsum.photos/seed/picsum/3200);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    filter: blur(5px);
+}
+.counter-content {
+    background-color:  rgba(92, 82, 96, 0.69);
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: fit-content;
+    border: 3px white solid;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px #494343bd;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    width: 170px !important;
+}
+
+
